@@ -1,0 +1,19 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /demo #项目基本路径 http:localhost:port/demo/+url
+spring:
+  profiles:
+    active: test
+
+---
+spring:
+  profiles: dev
+server:
+  port: 8081
+
+---
+spring:
+  profiles: test
+server:
+  port: 8082
