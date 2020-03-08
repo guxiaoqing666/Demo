@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/SpringBootJsp/pom.xml" />
         <option value="$PROJECT_DIR$/springbootwebjar/pom.xml" />
         <option value="$PROJECT_DIR$/springbootfilter/pom.xml" />
+        <option value="$PROJECT_DIR$/springbooterror/pom.xml" />
       </list>
     </option>
   </component>
