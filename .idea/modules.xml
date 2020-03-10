@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/springbootjdbc/springbootjdbc.iml" filepath="$PROJECT_DIR$/springbootjdbc/springbootjdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/springbootmybatis/springbootmybatis.iml" filepath="$PROJECT_DIR$/springbootmybatis/springbootmybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springbootredis/springbootredis.iml" filepath="$PROJECT_DIR$/springbootredis/springbootredis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootswagger2/springbootswagger2.iml" filepath="$PROJECT_DIR$/springbootswagger2/springbootswagger2.iml" />
       <module fileurl="file://$PROJECT_DIR$/springbootwebjar/springbootwebjar.iml" filepath="$PROJECT_DIR$/springbootwebjar/springbootwebjar.iml" />
     </modules>
   </component>

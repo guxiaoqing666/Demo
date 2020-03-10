@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springbooterror" />
+        <module name="springbootswagger2" />
         <module name="Demo" />
         <module name="SpringBootDemoV1" />
         <module name="springbootmybatis" />
@@ -28,6 +29,7 @@
       <module name="SpringBootJsp" target="1.8" />
       <module name="springbootmybatis" target="1.8" />
       <module name="springbootredis" target="1.8" />
+      <module name="springbootswagger2" target="1.8" />
       <module name="springbootwebjar" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -42,6 +44,7 @@
       <module name="springbootjdbc" options="-parameters" />
       <module name="springbootmybatis" options="-parameters" />
       <module name="springbootredis" options="-parameters" />
+      <module name="springbootswagger2" options="-parameters" />
       <module name="springbootwebjar" options="-parameters" />
     </option>
   </component>
