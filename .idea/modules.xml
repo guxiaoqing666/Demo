@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/SpringBootJsp/SpringBootJsp.iml" filepath="$PROJECT_DIR$/SpringBootJsp/SpringBootJsp.iml" />
       <module fileurl="file://$PROJECT_DIR$/springbooterror/springbooterror.iml" filepath="$PROJECT_DIR$/springbooterror/springbooterror.iml" />
       <module fileurl="file://$PROJECT_DIR$/springbootfilter/springbootfilter.iml" filepath="$PROJECT_DIR$/springbootfilter/springbootfilter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootjdbc/springbootjdbc.iml" filepath="$PROJECT_DIR$/springbootjdbc/springbootjdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/springbootwebjar/springbootwebjar.iml" filepath="$PROJECT_DIR$/springbootwebjar/springbootwebjar.iml" />
     </modules>
   </component>

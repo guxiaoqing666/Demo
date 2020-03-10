@@ -17,7 +17,7 @@ public class TulingErrorAttribute extends DefaultErrorAttributes {
                                                   boolean includeStackTrace) {
         Map<String, Object> retInfo = super.getErrorAttributes(webRequest,includeStackTrace);
         Map<String,Object> ext = (Map<String, Object>) webRequest.getAttribute("ext",0);
-        retInfo.put("company","tuling");
+        retInfo.put("company","tuling"); //将springboot自带json数据修改
         retInfo.put("ext",ext);
         return retInfo;
     }
