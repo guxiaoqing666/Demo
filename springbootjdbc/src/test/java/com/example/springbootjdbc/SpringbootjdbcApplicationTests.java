@@ -1,5 +1,7 @@
 package com.example.springbootjdbc;
 
+import com.example.springbootjdbc.mapper.DemoMapper;
+import com.example.springbootjdbc.po.Demo;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -19,12 +21,14 @@ class SpringbootjdbcApplicationTests {
 
     @Autowired
     private JdbcTemplate jdbcTemplate;
+    @Autowired
+    private DemoMapper demoMapper;
 
     @Test
-    public void testDbType() {
-        System.out.println("自动装配数据源的类型:" + dataSource.getClass());
+    void contextLoads1() {
+        List<Demo> demos = demoMapper.selectList();
+        System.out.println(demos.size());
     }
-
     @Test
     public void testJdbcTemplate() {
         List<Map<String, Object>> employeeList = jdbcTemplate.queryForList("select * from employee");

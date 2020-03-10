@@ -17,6 +17,6 @@ public class testController {
     public String test(){
         List<Map<String, Object>> employeeList = jdbcTemplate.queryForList("select * from employee");
         System.out.println(employeeList.size());
-        return "";
+        return "ok";
     }
 }

@@ -8,20 +8,26 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springbooterror" />
         <module name="Demo" />
-        <module name="springbootfilter" />
-        <module name="springbootwebjar" />
-        <module name="springbootjdbc" />
         <module name="SpringBootDemoV1" />
+        <module name="springbootmybatis" />
+        <module name="springbootdemo" />
+        <module name="springbootwebjar" />
+        <module name="springbootredis" />
+        <module name="springbootjdbc" />
+        <module name="springbootfilter" />
         <module name="SpringBootJsp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Demo" target="1.8" />
+      <module name="springbootdemo" target="1.8" />
       <module name="SpringBootDemoV1" target="1.8" />
       <module name="springbooterror" target="1.8" />
       <module name="springbootfilter" target="1.8" />
       <module name="springbootjdbc" target="1.8" />
       <module name="SpringBootJsp" target="1.8" />
+      <module name="springbootmybatis" target="1.8" />
+      <module name="springbootredis" target="1.8" />
       <module name="springbootwebjar" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -30,9 +36,12 @@
       <module name="Demo" options="-parameters" />
       <module name="SpringBootDemoV1" options="-parameters" />
       <module name="SpringBootJsp" options="-parameters" />
+      <module name="springbootdemo" options="-parameters" />
       <module name="springbooterror" options="-parameters" />
       <module name="springbootfilter" options="-parameters" />
       <module name="springbootjdbc" options="-parameters" />
+      <module name="springbootmybatis" options="-parameters" />
+      <module name="springbootredis" options="-parameters" />
       <module name="springbootwebjar" options="-parameters" />
     </option>
   </component>
