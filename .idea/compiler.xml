@@ -10,6 +10,7 @@
         <module name="Demo" />
         <module name="springbootfilter" />
         <module name="springbootwebjar" />
+        <module name="springbootjdbc" />
         <module name="SpringBootDemoV1" />
         <module name="SpringBootJsp" />
       </profile>
@@ -19,6 +20,7 @@
       <module name="SpringBootDemoV1" target="1.8" />
       <module name="springbooterror" target="1.8" />
       <module name="springbootfilter" target="1.8" />
+      <module name="springbootjdbc" target="1.8" />
       <module name="SpringBootJsp" target="1.8" />
       <module name="springbootwebjar" target="1.8" />
     </bytecodeTargetLevel>
@@ -30,6 +32,7 @@
       <module name="SpringBootJsp" options="-parameters" />
       <module name="springbooterror" options="-parameters" />
       <module name="springbootfilter" options="-parameters" />
+      <module name="springbootjdbc" options="-parameters" />
       <module name="springbootwebjar" options="-parameters" />
     </option>
   </component>
